@@ -27,8 +27,7 @@ defmodule Issues.TableFormatter do
   list of columns to extract
   ## Example
   iex> list = [Enum.into([{"a", "1"},{"b", "2"},{"c", "3"}], %{}),
-  ...>
-  Enum.into([{"a", "4"},{"b", "5"},{"c", "6"}], %{})]
+  ...> Enum.into([{"a", "4"},{"b", "5"},{"c", "6"}], %{})]
   iex> Issues.TableFormatter.split_into_columns(list, [ "a", "b", "c" ])
   [ ["1", "4"], ["2", "5"], ["3", "6"] ]
   """
