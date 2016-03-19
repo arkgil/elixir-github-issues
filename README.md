@@ -1,20 +1,5 @@
 # Issues
 
-**TODO: Add description**
+Elixir command line application for fetching latest project issues from [GitHub](https://github.com).
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add issues to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:issues, "~> 0.0.1"}]
-        end
-
-  2. Ensure issues is started before your application:
-
-        def application do
-          [applications: [:issues]]
-        end
-
+Application is created according to Dave Thomas' [Programming Elixir](https://pragprog.com/book/elixir12/programming-elixir-1-2) book.
